@@ -10,7 +10,15 @@
     <input type="file" accept="audio/mp3" id="transcriptFile" />
     <button onclick="extractFile()">Transcribe</button>
 
-    <p id="results"></p>
+   <div>
+       <h3>Results After Transcription </h3>
+
+       <p id="result"></p>
+
+
+   </div>
+
+
     <!--<form action="Recognize.php" method="post" enctype="multipart/form-data">
         Upload a File:
         <input type="file" name="myfile" id="fileToUpload">
