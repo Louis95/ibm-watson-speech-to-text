@@ -110,4 +110,4 @@ function transcribeFile(file) {
         console.log(error)
     })
 }
->>>>>>> a31bea1556318dbce2d9a4c2c3fa02ae81b7f69c
+
